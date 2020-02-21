@@ -1,0 +1,25 @@
+.block {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  box-sizing: border-box;
+  padding: 12px 16px;
+}
+
+.to {
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.5;
+  font-weight: 600;
+  width: 30px;
+}
+
+.family {
+  color: #48C1C2;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  line-height: 17px;
+  width: 313px;
+  text-align: left;
+}

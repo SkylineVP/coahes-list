@@ -1,0 +1,45 @@
+.menu {
+  background-color: #0B3157;
+  width: 375px;
+  height: 96px;
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    margin-top: 50px;
+  }
+}
+
+.newMessage {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  width: 212px;
+  text-align: center;
+}
+
+.cancel {
+  color: #48C1C2;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.34px;
+  line-height: 19px;
+  width: 60px;
+  text-align: left;
+}
+
+.done {
+  color: #48C1C2;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.34px;
+  line-height: 19px;
+  width: 60px;
+  text-align: right;
+}
