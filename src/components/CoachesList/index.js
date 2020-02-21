@@ -70,7 +70,7 @@ class CoachesList extends Component {
             <SelectedCoach coaches={coaches.filter((item) => item.isSelected)}/>
             <ul>
                 {coaches.map((coach) => {
-                    return <Coach key={coach.id} coach={coach} id={coach.id} onSelectButtonclick={this.selectCoach}/>
+                    return <Coach key={coach.id} coach={coach} id={coach.id} onSelectButtonClick={this.selectCoach}/>
                 })}
             </ul>
         </>;
