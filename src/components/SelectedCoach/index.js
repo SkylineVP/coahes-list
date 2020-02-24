@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import style              from "./styles.module.scss"
+import style              from "./SelectedCoach.module.scss"
 
 function SelectedCoach(props) {
     const {coaches} = props;

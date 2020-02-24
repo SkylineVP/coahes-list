@@ -1,4 +1,4 @@
-.listitem {
+.listItem {
   width: 375px;
   height: 72px;
   display: flex;
@@ -19,6 +19,7 @@
 
 }
 
+
 .name {
   color: #0B3157;
   font-family: 'Montserrat', sans-serif;
@@ -30,7 +31,7 @@
   text-align: left;
 }
 
-.unSelectedButton {
+.selectedButton {
   width: 28px;
   height: 28px;
   border-radius: 100%;
@@ -68,7 +69,7 @@
   text-align: left;
 }
 
-.listitem + .listitem {
+.listItem + .listItem {
   border-top: 1px solid rgba(11, 49, 87, 0.11);
 
 }

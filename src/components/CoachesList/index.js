@@ -14,7 +14,7 @@ class CoachesList extends Component {
                     firstName: "Brian",
                     lastName: "McCauley",
                     level: "1",
-                    picture: "https://marvel-live.freetls.fastly.net/canvas/2018/7/b637481eb0374435843150483fbb5fe8?quality=95&fake=.png",
+                    picture: "https://marvhfel-live.freetls.fastly.net/canvas/2018/7/b637481eb0374435843150483fbb5fe8?quality=95&fake=.png",
                     isSelected: false
                 },
                 {
@@ -22,7 +22,7 @@ class CoachesList extends Component {
                     firstName: "Chad",
                     lastName: "Hayes",
                     level: "2",
-                    picture: "https://www.kinonews.ru/insimgs/persimg/persimg17772.jpg",
+                    picture: "https://www.kinfhonews.ru/insimgs/persimg/persimg17772.jpg",
                     isSelected: false
                 },
                 {
@@ -51,14 +51,12 @@ class CoachesList extends Component {
                 },
 
             ],
-
         }
     }
 
     selectCoach = (id) => {
-        id--;
         const coaches = lodash.clone(this.state.coaches);
-        coaches[id].isSelected = !(coaches[id].isSelected);
+        coaches[id - 1].isSelected = !(coaches[id - 1].isSelected);
         this.setState({
             coaches: coaches
         })

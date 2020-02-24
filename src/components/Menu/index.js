@@ -6,7 +6,6 @@ class Menu extends Component {
         super(props);
 
     }
-
     render() {
         return (<section className={styles.menu}>
             <main>
